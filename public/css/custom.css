@@ -1,0 +1,92 @@
+/*------------------*/
+/* PRICING TEMPLATE */
+/*------------------*/
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+/*------------------*/
+/*  ENDE            */
+/*------------------*/
+
+body{
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    background-color:#EFEFEF;
+}
+
+#content{
+    margin-top: -5rem;
+}
+
+.jumbotron{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card{
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(219, 219, 219, 0.55);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(219, 219, 219, 0.55);
+    box-shadow: 0px 5px 20px 0px rgba(219, 219, 219, 0.55);
+    border-bottom: 1px solid #ddd;
+    border: none;
+    border-radius: 0;
+}
+
+a.card-header{
+    color:#000;
+}
+a.card-header:hover{
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.list-group-item:hover{
+    background-color: #eee;
+}
+
+.navbar_shadow{
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+    border-bottom: 1px solid #ddd;
+    z-index: 10000;
+}
+
+.bd-callout {
+    border-left: 10px solid #eee !important;
+}
+
+@media all and (max-width:767px){
+    .mobilebtn{ 
+        width: 100%; 
+        display:block; 
+        margin-top: 1rem;
+    }
+
+    #page-title{
+        padding-bottom: 1rem;
+    }
+} 
+
+@media all and (min-width:768px) {
+    .mobilebtn{ 
+        margin-left: 0.5rem;
+    }
+}   
